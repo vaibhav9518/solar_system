@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL Earth</title>
+    <style>
+        body { margin: 10px; overflow: hidden; background-color: #000; }
+        .tm  { position: absolute; top: 30px; right: 10px; left:10px; bottom: 10px}
+        .webgl-error { font: 15px/30px monospace; text-align: center; color: #fff; margin: 50px; }
+        .webgl-error a { color: #fff; }
+        .webgl {}
+        h1   {
+            border:1px solid white;
+            background-color:gray;
+            text-align: center;
+            color:white;font-family:verdana;font-size:100%;}    
+    </style>
+</head>
+<body>
+    <div id="webgl">
+    <script src="js/three.min.js"></script>
+    <script src="js/Detector.js"></script>      
+    <script src="js/TrackballControls.js"></script>     
+    <script src="js/earth.js"></script>  
+    </div>
+</body>
+</html>
+
